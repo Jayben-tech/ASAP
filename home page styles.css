@@ -70,6 +70,20 @@ align-items: center;
  flex-direction: row;
 }
 
+.navdiv a{
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    color: black;
+    transition: 1s;   
+    text-transform: uppercase;
+}
+
+.navdiv a:hover{
+    color:#FF8A00
+}
+
 .description {
     display: grid;
     grid-template-columns: 1fr 1fr;
